@@ -29,6 +29,10 @@ body {
           box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
 }
 
+.header__mobile__label {
+  display: none;
+}
+
 .header__mobile__search {
   display: none;
 }
@@ -50,6 +54,10 @@ body {
   border: 1px solid #EBEBF1;
   border-radius: 5px;
   padding-left: 39px;
+}
+
+.header__content__search:hover {
+  border: 5px solid #EBEBF1;
 }
 
 .header__content__search::-webkit-input-placeholder {
@@ -88,6 +96,11 @@ body {
   color: #BBC4D6;
 }
 
+.header__content__label {
+  position: absolute;
+  left: 15.67%;
+}
+
 .header__content__account {
   border-left: 1px solid #EBEBF1;
   display: -webkit-box;
@@ -97,6 +110,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
+  cursor: pointer;
+}
+
+.header__content__account:hover {
+  -webkit-box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+          box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
 }
 
 .header__content__account__name {
@@ -170,7 +189,7 @@ body {
           box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
 }
 
-@media (max-width: 768px) and (min-width: 375px) {
+@media (max-width: 768px) and (min-width: 376px) {
   .wrapper {
     max-width: 788px;
     width: 100%;
@@ -181,6 +200,9 @@ body {
   }
   .header__content {
     gap: 40px;
+  }
+  .header__content__label {
+    left: 14.67%;
   }
   .header__content__search {
     width: 459px;
@@ -220,8 +242,17 @@ body {
   .header__content__search {
     display: none;
   }
+  .header__content__label {
+    display: none;
+  }
   .header__content__account {
     display: none;
+  }
+  .header__mobile__label {
+    display: block;
+    position: absolute;
+    top: 7.5%;
+    left: 3%;
   }
   .header__mobile__search {
     display: block;
