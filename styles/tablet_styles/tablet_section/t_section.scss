@@ -1,0 +1,16 @@
+.main {
+    &__heading {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #121920;
+    }
+
+    &__content {
+
+        &__item {
+            width: 30%;
+        }
+    }
+}

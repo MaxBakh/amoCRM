@@ -1,0 +1,18 @@
+.main {
+  padding: 0 30px;
+  margin-top: 70px;
+}
+
+.main__heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+}
+
+.main__content__item {
+  width: 100%;
+  height: 140px;
+}
+/*# sourceMappingURL=mobile_section.css.map */

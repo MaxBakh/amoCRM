@@ -1,0 +1,12 @@
+.main__heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+}
+
+.main__content__item {
+  width: 30%;
+}
+/*# sourceMappingURL=t_section.css.map */

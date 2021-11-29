@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,cAAU,CAAC;EACP,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,OAAO;CACjB;;AAII,AAAD,oBAAO,CAAC;EACJ,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "t_section.scss"
+    ],
+    "names": [],
+    "file": "t_section.css"
+}
