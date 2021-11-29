@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+
+    .wrapper {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    @import 'mobile_header/mobile_header.scss';
+
+
+    @import 'mobile_section/mobile_section.scss';
+
+}

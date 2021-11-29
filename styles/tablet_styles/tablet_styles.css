@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 788px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .header {
+    margin-top: 20px;
+  }
+  .header__content {
+    gap: 40px;
+  }
+  .header__content__label {
+    left: 14.67%;
+  }
+  .header__content__search {
+    width: 459px;
+  }
+  .main__heading {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121920;
+  }
+  .main__content__item {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=tablet_styles.css.map */

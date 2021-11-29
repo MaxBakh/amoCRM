@@ -1,0 +1,16 @@
+.header {
+    margin-top: 20px;
+
+    &__content {
+        gap: 40px;
+
+        &__label {
+            left: 14.67%;
+
+        }
+
+        &__search {
+            width: 459px;
+        }
+    }
+}
